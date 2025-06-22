@@ -6,8 +6,8 @@ cheatsheet for ST7920 128x64 SPI/Parallel Display
 |--|--|--|
  | 1 | GND| GND|
  | 2 | VCC |VCC(5V)|
- | 4 | RS |  Slave Select |
- | 5 | R/W |  MOSI |
+ | 4 | RS |  CS |
+ | 5 | R/W |  Data In(connect to MOSI) |
  | 6 | E | SCK |
  | 15 | PSB | Mode(0: SPI, 1: Parallel) |
  | 19 | BLA | Backlight Anode(+) |
