@@ -20,4 +20,5 @@ cheatsheet for ST7920 128x64 SPI/Parallel Display
 ### models with potentiometer
 turn the potentiometer
 ### models without potentiometer
-connect JP4 UPPER pad to voltage source.
+1. solder JP4 pad.
+2. connect voltage source to VO(V0) Pin
